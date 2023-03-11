@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace KontrolaWersji1
 {
-    internal class Person
+    public class Person
     {
+
+        public string Name { get; set; }
+        public string Surname { get; set; }
+        public int Age { get; set; }
     }
 }
